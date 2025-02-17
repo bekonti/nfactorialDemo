@@ -1,0 +1,1190 @@
+{
+	"info": {
+		"_postman_id": "5af4680d-13fb-4f76-b79f-8102de3ef582",
+		"name": "Microcks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14293316"
+	},
+	"item": [
+		{
+			"name": "products/by-kztin/2870008155440",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870008155440",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870008155440"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870008155440",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870008155440"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:41:40 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4668"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1094831,\n    \"external_id\": null,\n    \"name\": \"Кнопка вызова Исток Аудио УНИВЕРСАЛ  антивандальная, всепогодная\",\n    \"name_ru\": \"Кнопка вызова Исток Аудио УНИВЕРСАЛ  антивандальная, всепогодная\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"УНИВЕРСАЛ (Аа)\",\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870008155440\",\n    \"product_type\": 1,\n    \"net_weight\": 100,\n    \"net_measure\": \"г\",\n    \"gross_weight\": null,\n    \"gross_measure\": \"г\",\n    \"volume\": null,\n    \"volume_measure\": \"мл\",\n    \"manufacturer\": \"ООО \\\"Исток Аудио Трейдинг\\\"\",\n    \"amount_in_package\": 1,\n    \"package_dimensions\": {\n        \"width\": null,\n        \"height\": null,\n        \"length\": null,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": 124,\n        \"height\": 22,\n        \"length\": 124,\n        \"measure\": \"мм\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1723209502,\n    \"modified\": 1723209502,\n    \"category\": {\n        \"id\": 32258,\n        \"name\": \"Кнопки вызова\",\n        \"code\": 100010812,\n        \"full_code\": \"1024-0001-0003-100010812\",\n        \"level\": 3,\n        \"parent\": 29106,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 29968,\n        \"name\": \"Исток Аудио\"\n    },\n    \"measure\": {\n        \"id\": 2,\n        \"name\": \"Штука\",\n        \"short_name\": \"796\"\n    },\n    \"country\": {\n        \"id\": 257,\n        \"name\": \"Россия\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"tsvet_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Цвет \"\n            },\n            \"value\": {\n                \"kz\": \"светового подтверждения передачи сигнала: жёлтый; корпуса кнопки: серый; активной зоны нажатия: жёлтый\",\n                \"ru\": \"светового подтверждения передачи сигнала: жёлтый; корпуса кнопки: серый; активной зоны нажатия: жёлтый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"svetovogo_podtverzhdenija_peredachi_signala_zheltyj_korpusa_knopki_seryj_aktivnoj_zony_nazhatija_zheltyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"pitanie\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Питание\"\n            },\n            \"value\": {\n                \"kz\": \"CR2 Lithium\",\n                \"ru\": \"CR2 Lithium\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"cr2_lithium\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"dlitelnost_s\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Длительность, с\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"световых сигналов подтверждения: 4; передачи сигнала: 3\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"svetovyh_signalov_podtverzhdenija_4_peredachi_signala_3\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"naprjazhenie\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Напряжение\"\n            },\n            \"value\": {\n                \"kz\": \"3 В\",\n                \"ru\": \"3 В\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"3_v\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"stepen_zaschity\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Степень защиты\"\n            },\n            \"value\": {\n                \"kz\": \"IP44/IK10\",\n                \"ru\": \"IP44/IK10\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"ip44ik10\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"rabochaja_chastota\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Рабочая частота\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"433,92\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"43392\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"rabochaja_temperatura_c\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Рабочая температура, °C\"\n            },\n            \"value\": {\n                \"kz\": \"-35 ÷ +50\",\n                \"ru\": \"-35 ÷ +50\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"35__50\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"diametr_aktivnoj_zony_nazhatija_knopki\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Диаметр активной зоны нажатия кнопки\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"активирующей сигнал вызова - 60 мм\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"aktivirujuschej_signal_vyzova__60_mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"diametr_zony_svetovogo_podtverzhdenija\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Диаметр зоны светового подтверждения\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"40 мм\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"40_mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"kolichestvo_podtverzhdajuschih_zvukovyh_signalov\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Количество подтверждающих звуковых сигналов\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"при передаче вызова: 3\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"pri_peredache_vyzova_3\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [],\n    \"tnveds\": [],\n    \"images\": [\n        {\n            \"id\": 1163636,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/68938/2024-08-09T12%3A53%3A35/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-08-09_125315.png\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870000242544",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870008155440",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870008155440"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870000242544",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870000242544"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:44:36 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4315"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 322028,\n    \"external_id\": \"10877631\",\n    \"name\": \"Блокнот Moleskine Notebook Xl Squared Soft Saphire Blue синий\",\n    \"name_ru\": \"Блокнот Moleskine Notebook Xl Squared Soft Saphire Blue синий\",\n    \"name_kk\": \"Блокнот Moleskine Notebook Xl Squared Soft Saphire Blue синий\",\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": null,\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870000242544\",\n    \"product_type\": 1,\n    \"net_weight\": null,\n    \"net_measure\": null,\n    \"gross_weight\": null,\n    \"gross_measure\": null,\n    \"volume\": null,\n    \"volume_measure\": null,\n    \"manufacturer\": null,\n    \"amount_in_package\": null,\n    \"package_dimensions\": {},\n    \"product_dimensions\": {},\n    \"hierarchy\": 1,\n    \"source\": 5,\n    \"status\": 1,\n    \"created\": 1656356286,\n    \"modified\": 1702395871,\n    \"category\": {\n        \"id\": 9219,\n        \"name\": \"Книги/Блокноты для контактной информации\",\n        \"code\": null,\n        \"full_code\": \"1007-0002-0003-100000511\",\n        \"level\": 3,\n        \"parent\": 9217,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 7209,\n        \"name\": \"Moleskine\"\n    },\n    \"measure\": null,\n    \"country\": null,\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"tip\": {\n            \"name\": {\n                \"kz\": \"Тип\",\n                \"ru\": \"Тип\"\n            },\n            \"value\": {\n                \"kz\": \"блокнот\",\n                \"ru\": \"блокнот\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"bloknot\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"razlinovka\": {\n            \"name\": {\n                \"kz\": \"Разлиновка\",\n                \"ru\": \"Разлиновка\"\n            },\n            \"value\": {\n                \"kz\": \"в клетку\",\n                \"ru\": \"в клетку\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"v_kletku\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_oblozhki\": {\n            \"name\": {\n                \"kz\": \"Тип обложки\",\n                \"ru\": \"Тип обложки\"\n            },\n            \"value\": {\n                \"kz\": \"мягкая\",\n                \"ru\": \"мягкая\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"mjagkaja\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_kreplenija\": {\n            \"name\": {\n                \"kz\": \"Тип крепления\",\n                \"ru\": \"Тип крепления\"\n            },\n            \"value\": {\n                \"kz\": \"склейка\",\n                \"ru\": \"склейка\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"sklejka\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"razmer_bloka_sm\": {\n            \"name\": {\n                \"kz\": \"Размер блока, см\",\n                \"ru\": \"Размер блока, см\"\n            },\n            \"value\": {\n                \"kz\": \"19.0000\",\n                \"ru\": \"19.0000\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"190000\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"kolichestvo_listov\": {\n            \"name\": {\n                \"kz\": \"Количество листов\",\n                \"ru\": \"Количество листов\"\n            },\n            \"value\": {\n                \"kz\": \"192.0000\",\n                \"ru\": \"192.0000\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1920000\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_datirovannosti\": {\n            \"name\": {\n                \"kz\": \"Тип датированности\",\n                \"ru\": \"Тип датированности\"\n            },\n            \"value\": {\n                \"kz\": \"недатированный\",\n                \"ru\": \"недатированный\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"nedatirovannyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [\n        {\n            \"id\": 391265,\n            \"enstru\": {\n                \"id\": 557,\n                \"name\": \"Блокнот для записей\",\n                \"code\": \"172312.700.000015\",\n                \"short_description\": \"формат А4\"\n            },\n            \"timestamp\": 1729087252\n        },\n        {\n            \"id\": 397296,\n            \"enstru\": {\n                \"id\": 555,\n                \"name\": \"Блокнот для записей\",\n                \"code\": \"172312.700.000013\",\n                \"short_description\": \"формат А6\"\n            },\n            \"timestamp\": 1729087252\n        },\n        {\n            \"id\": 403328,\n            \"enstru\": {\n                \"id\": 554,\n                \"name\": \"Блокнот для записей\",\n                \"code\": \"172312.700.000012\",\n                \"short_description\": \"формат А7\"\n            },\n            \"timestamp\": 1729087252\n        },\n        {\n            \"id\": 409357,\n            \"enstru\": {\n                \"id\": 556,\n                \"name\": \"Блокнот для записей\",\n                \"code\": \"172312.700.000014\",\n                \"short_description\": \"формат А5\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"tnveds\": [\n        {\n            \"id\": 135461,\n            \"tnved\": {\n                \"id\": 241,\n                \"name\": \"Записные книжки, блокноты для писем и памятных записок\",\n                \"level\": 0,\n                \"code\": \"4820103000\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"images\": [\n        {\n            \"id\": 266124,\n            \"order\": 266061,\n            \"image_url\": \"https://e-catalog.gov.kz/media/products/322028/6196423c957d8.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 266125,\n            \"order\": 266062,\n            \"image_url\": \"https://e-catalog.gov.kz/media/products/322028/d0a9gv7rwczg1mcp5kygqdxfiz0zkbdf.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 266126,\n            \"order\": 266063,\n            \"image_url\": \"https://e-catalog.gov.kz/media/products/322028/nmzhpwlsebm43j302uvdh1c3ywbn2dwv.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 266127,\n            \"order\": 266064,\n            \"image_url\": \"https://e-catalog.gov.kz/media/products/322028/rb1h7y6fbc2hcr59kt6wo8184fycvej2.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870004674730",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870004674730",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870004674730"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870004674730",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870004674730"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:45:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "8240"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 630629,\n    \"external_id\": null,\n    \"name\": \"Бумага для офисной техники KazLuxCopy Classic, А4, класс С, 500 листов\",\n    \"name_ru\": \"Бумага для офисной техники KazLuxCopy Classic, А4, класс С, 500 листов\",\n    \"name_kk\": null,\n    \"is_domestic\": true,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"Classic\",\n    \"gtin\": \"710497009867\",\n    \"mpn\": null,\n    \"kztin_code\": \"2870004674730\",\n    \"product_type\": 1,\n    \"net_weight\": 2.5,\n    \"net_measure\": \"кг\",\n    \"gross_weight\": null,\n    \"gross_measure\": \"кг\",\n    \"volume\": null,\n    \"volume_measure\": \"мл\",\n    \"manufacturer\": \"ТОО \\\"Ел Өнімі\\\"\",\n    \"amount_in_package\": null,\n    \"package_dimensions\": {\n        \"width\": null,\n        \"height\": null,\n        \"length\": null,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": null,\n        \"height\": null,\n        \"length\": null,\n        \"measure\": \"мм\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1707824853,\n    \"modified\": 1737548689,\n    \"category\": {\n        \"id\": 9212,\n        \"name\": \"Расходные материалы для офисной техники\",\n        \"code\": null,\n        \"full_code\": \"1007-0002-0002-100000505\",\n        \"level\": 3,\n        \"parent\": 9208,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 25951,\n        \"name\": \"KazLuxCopy\"\n    },\n    \"measure\": {\n        \"id\": 556,\n        \"name\": \"Одна пачка\",\n        \"short_name\": null\n    },\n    \"country\": {\n        \"id\": 142,\n        \"name\": \"КАЗАХСТАН\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"color\": {\n            \"name\": {\n                \"kz\": \"Цвет\",\n                \"ru\": \"Цвет\"\n            },\n            \"value\": {\n                \"kz\": \"белый\",\n                \"ru\": \"белый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"belyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"pechat\": {\n            \"name\": {\n                \"kz\": \"Печать\",\n                \"ru\": \"Печать\"\n            },\n            \"value\": {\n                \"kz\": \"Копировально-множительной технике, различных струйных и лазерных принтерах, на листовых факс-аппаратах.\",\n                \"ru\": \"Копировально-множительной технике, различных струйных и лазерных принтерах, на листовых факс-аппаратах.\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"kopirovalnomnozhitelnoj_tehnike_razlichnyh_strujnyh_i_lazernyh_printerah_na_listovyh_faksapparatah\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"jarkost\": {\n            \"name\": {\n                \"kz\": \"Яркость\",\n                \"ru\": \"Яркость\"\n            },\n            \"value\": {\n                \"kz\": \"94+/-2 %\",\n                \"ru\": \"94+/-2 %\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"942_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_bumagi\": {\n            \"name\": {\n                \"kz\": \"Тип бумаги\",\n                \"ru\": \"Тип бумаги\"\n            },\n            \"value\": {\n                \"kz\": \"для печати\",\n                \"ru\": \"для печати\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"dlja_pechati\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"vlazhnost_\": {\n            \"name\": {\n                \"kz\": \"Влажность\",\n                \"ru\": \"Влажность, %\"\n            },\n            \"value\": {\n                \"kz\": \"4.6+/-0.7\",\n                \"ru\": \"4.6+/-0.7\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"4607\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"naznachenie\": {\n            \"name\": {\n                \"kz\": \"Назначение\",\n                \"ru\": \"Назначение\"\n            },\n            \"value\": {\n                \"kz\": \"широкоформатная печать\",\n                \"ru\": \"широкоформатная печать\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"shirokoformatnaja_pechat\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"belizna_cie_\": {\n            \"name\": {\n                \"kz\": \"Белизна, %\",\n                \"ru\": \"Белизна (CIE), %\"\n            },\n            \"value\": {\n                \"kz\": \"146±3\",\n                \"ru\": \"146±3\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1463\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"format_sheet\": {\n            \"name\": {\n                \"kz\": \"Формат\",\n                \"ru\": \"Формат листов\"\n            },\n            \"value\": {\n                \"kz\": \"А4\",\n                \"ru\": \"А4\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"a4\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"klass_bumagi\": {\n            \"name\": {\n                \"kz\": \"Класс бумаги\",\n                \"ru\": \"Класс бумаги\"\n            },\n            \"value\": {\n                \"kz\": \"С\",\n                \"ru\": \"С\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"s\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"razmer_lista\": {\n            \"name\": {\n                \"kz\": \"Размер\",\n                \"ru\": \"Размер листа\"\n            },\n            \"value\": {\n                \"kz\": \"210*297 мм\",\n                \"ru\": \"210*297 мм\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"210297_mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"zhestkost_cd\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Жесткость CD\"\n            },\n            \"value\": {\n                \"kz\": \"55+/10\",\n                \"ru\": \"55+/10\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"5510\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"density_paper\": {\n            \"name\": {\n                \"kz\": \"Плотность\",\n                \"ru\": \"Плотность, г/м2\"\n            },\n            \"value\": {\n                \"kz\": \"80+/1.5 г/м2\",\n                \"ru\": \"80+/1.5 г/м2\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"8015_gm2\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"packing_paper\": {\n            \"name\": {\n                \"kz\": \"Тип фасовки\",\n                \"ru\": \"Тип фасовки\"\n            },\n            \"value\": {\n                \"kz\": \"500 листов в пачке , 5 пачек в коробке\",\n                \"ru\": \"500 листов в пачке \"\n            },\n            \"is_main\": true,\n            \"value_code\": \"500_listov_v_pachke_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tolschina_mkm\": {\n            \"name\": {\n                \"kz\": \"Толщина\",\n                \"ru\": \"Толщина, мкм\"\n            },\n            \"value\": {\n                \"kz\": \"104+/-2 микрон\",\n                \"ru\": \"104+/-2 микрон\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1042_mikron\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"neprozrachnost_\": {\n            \"name\": {\n                \"kz\": \"Непрозрачность\",\n                \"ru\": \"Непрозрачность, %\"\n            },\n            \"value\": {\n                \"kz\": \"не менее 91%\",\n                \"ru\": \"не менее 91%\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"ne_menee_91\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"zhestkost_md_mn\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Жесткость MD, мН\"\n            },\n            \"value\": {\n                \"kz\": \"125+/-20\",\n                \"ru\": \"125+/-20\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"12520\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"kolichestvo_listov\": {\n            \"name\": {\n                \"kz\": \"Количество листов\",\n                \"ru\": \"Количество листов\"\n            },\n            \"value\": {\n                \"kz\": \"500\",\n                \"ru\": \"500\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"500\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"sherohovatost_mlmin_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Шероховатость, мл/мин \"\n            },\n            \"value\": {\n                \"kz\": \"250+/-50\",\n                \"ru\": \"250+/-50\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"25050\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [\n        {\n            \"id\": 3330,\n            \"enstru\": {\n                \"id\": 616,\n                \"name\": \"Бумага для офисного оборудования\",\n                \"code\": \"172314.500.000002\",\n                \"short_description\": \"формат А4\"\n            },\n            \"timestamp\": 1707824853\n        }\n    ],\n    \"tnveds\": [\n        {\n            \"id\": 128498,\n            \"tnved\": {\n                \"id\": 18548,\n                \"name\": \"Части и принадлежности печатных машин, прочие\",\n                \"level\": 0,\n                \"code\": \"8443999009\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"images\": [\n        {\n            \"id\": 903592,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/45777/2024-01-26T10%3A29%3A29/PHOTO-2024-01-25-18-57-25_2.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 903593,\n            \"order\": 1,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/45777/2024-01-26T10%3A29%3A29/PHOTO-2024-01-25-18-57-25_3.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 903594,\n            \"order\": 2,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/45777/2024-01-26T10%3A29%3A29/PHOTO-2024-01-25-18-57-25.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 903595,\n            \"order\": 3,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/45777/2024-01-26T10%3A29%3A29/PHOTO-2024-01-25-18-57-25_4.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [\n        {\n            \"id\": 16706,\n            \"document_url\": \"https://e-catalog.gov.kz/media/applications/documents/45777/2024-01-25T12%3A54%3A53/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82_3.pdf\",\n            \"filename\": \"applications/documents/45777/2024-01-25T12:54:53/Сертификат_3.pdf\",\n            \"extension\": \".pdf\",\n            \"file_size\": 1507351\n        },\n        {\n            \"id\": 16707,\n            \"document_url\": \"https://e-catalog.gov.kz/media/applications/documents/45777/2024-02-06T12%3A14%3A58/%D0%A2%D0%9E%D0%9E_%D0%95%D0%9B_%D0%9E%D0%9D%D0%98%D0%9C%D0%98-%D0%A2%D0%B5%D1%85_%D1%81%D0%BF%D0%B5%D1%86_%D0%9A%D0%B0%D0%B7%D0%BB%D1%8E%D0%BA%D1%81.pdf\",\n            \"filename\": \"applications/documents/45777/2024-02-06T12:14:58/ТОО_ЕЛ_ОНИМИ-Тех_спец_Казлюкс.pdf\",\n            \"extension\": \".pdf\",\n            \"file_size\": 193793\n        },\n        {\n            \"id\": 16708,\n            \"document_url\": \"https://e-catalog.gov.kz/media/applications/documents/45777/2024-02-06T13%3A02%3A56/%D1%82%D0%B5%D1%85_%D1%81%D0%BF%D0%B5%D1%86_%D0%A3%D1%82%D0%B2%D0%B5%D1%80%D0%B6.PDF\",\n            \"filename\": \"applications/documents/45777/2024-02-06T13:02:56/тех_спец_Утверж.PDF\",\n            \"extension\": \".pdf\",\n            \"file_size\": 558471\n        }\n    ],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2874004130036",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2874004130036",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2874004130036"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2874004130036",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2874004130036"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:47:33 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "9765"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 619932,\n    \"external_id\": null,\n    \"name\": \"Бумага для офисной техники Mondi Чайка А3, Марка А, 500л.\",\n    \"name_ru\": \"Бумага для офисной техники Mondi Чайка А3, Марка А, 500л.\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"\",\n    \"gtin\": \"4603976000249\",\n    \"mpn\": \"356174\",\n    \"kztin_code\": \"2874004130036\",\n    \"product_type\": 1,\n    \"net_weight\": null,\n    \"net_measure\": \"г\",\n    \"gross_weight\": 5,\n    \"gross_measure\": \"кг\",\n    \"volume\": null,\n    \"volume_measure\": \"мл\",\n    \"manufacturer\": \"АО «Монди Сыктывкарский ЛПК»\",\n    \"amount_in_package\": null,\n    \"package_dimensions\": {\n        \"width\": 300,\n        \"height\": 50,\n        \"length\": 421,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": 300,\n        \"height\": 50,\n        \"length\": 420,\n        \"measure\": \"мм\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1683204086,\n    \"modified\": 1737548233,\n    \"category\": {\n        \"id\": 9212,\n        \"name\": \"Расходные материалы для офисной техники\",\n        \"code\": null,\n        \"full_code\": \"1007-0002-0002-100000505\",\n        \"level\": 3,\n        \"parent\": 9208,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 5412,\n        \"name\": \"Mondi\"\n    },\n    \"measure\": null,\n    \"country\": {\n        \"id\": 257,\n        \"name\": \"Россия\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"ves\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"вес\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"1 пачка - 5кг\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1_pachka__5kg\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"color\": {\n            \"name\": {\n                \"kz\": \"Цвет\",\n                \"ru\": \"Цвет\"\n            },\n            \"value\": {\n                \"kz\": \"белый\",\n                \"ru\": \"белый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"belyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"shtrihkod\": {\n            \"name\": {\n                \"kz\": \"Штрихкод\",\n                \"ru\": \"Штрихкод\"\n            },\n            \"value\": {\n                \"kz\": \"4603976000249\",\n                \"ru\": \"4603976000249\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"4603976000249\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_bumagi\": {\n            \"name\": {\n                \"kz\": \"Тип\",\n                \"ru\": \"Тип бумаги\"\n            },\n            \"value\": {\n                \"kz\": \"офисная\",\n                \"ru\": \"офисная\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"ofisnaja\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"belizna_cie_\": {\n            \"name\": {\n                \"kz\": \"Белизна, %\",\n                \"ru\": \"Белизна (CIE), %\"\n            },\n            \"value\": {\n                \"kz\": \"160-175 по CIE \",\n                \"ru\": \"160-175 по CIE \"\n            },\n            \"is_main\": true,\n            \"value_code\": \"160175_po_cie_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"format_sheet\": {\n            \"name\": {\n                \"kz\": \"Формат листов\",\n                \"ru\": \"Формат листов\"\n            },\n            \"value\": {\n                \"kz\": \"A3\",\n                \"ru\": \"A3\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"a3\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"klass_bumagi\": {\n            \"name\": {\n                \"kz\": \"Класс бумаги\",\n                \"ru\": \"Класс бумаги\"\n            },\n            \"value\": {\n                \"kz\": \"A\",\n                \"ru\": \"A\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"a\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"proizvoditel\": {\n            \"name\": {\n                \"kz\": \"Производитель\",\n                \"ru\": \"Производитель\"\n            },\n            \"value\": {\n                \"kz\": \"АО Монди СЛПК\",\n                \"ru\": \"АО Монди СЛПК\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"ao_mondi_slpk\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"razmer_lista\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Размер листа\"\n            },\n            \"value\": {\n                \"kz\": \"297*420\",\n                \"ru\": \"297*420 мм\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"297420_mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"packing_paper\": {\n            \"name\": {\n                \"kz\": \"Тип фасовки\",\n                \"ru\": \"Тип фасовки\"\n            },\n            \"value\": {\n                \"kz\": \"500 листов в пачке , 5 пачек в коробке\",\n                \"ru\": \"500 листов в пачке \"\n            },\n            \"is_main\": true,\n            \"value_code\": \"500_listov_v_pachke_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tolschina_mkm\": {\n            \"name\": {\n                \"kz\": \"Толщина, мкм\",\n                \"ru\": \"Толщина, мкм\"\n            },\n            \"value\": {\n                \"kz\": \"106 +/- 2 мкм\",\n                \"ru\": \"106 +/- 2 мкм\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"106__2_mkm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"neprozrachnost_\": {\n            \"name\": {\n                \"kz\": \"Непрозрачность, %\",\n                \"ru\": \"Непрозрачность, %\"\n            },\n            \"value\": {\n                \"kz\": \">93\",\n                \"ru\": \">93\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"93\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"kolichestvo_listov\": {\n            \"name\": {\n                \"kz\": \"Количество листов\",\n                \"ru\": \"Количество листов\"\n            },\n            \"value\": {\n                \"kz\": \"500\",\n                \"ru\": \"500\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"500\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_poverhnosti_bumagi\": {\n            \"name\": {\n                \"kz\": \"Тип покрытия бумаги\",\n                \"ru\": \"Тип поверхности бумаги\"\n            },\n            \"value\": {\n                \"kz\": \"матовое\",\n                \"ru\": \"матовое\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"matovoe\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"dopolnitelnaja_informatsija\": {\n            \"name\": {\n                \"kz\": \"Описание\",\n                \"ru\": \"Дополнительная информация\"\n            },\n            \"value\": {\n                \"kz\": \"Бумага премиум-класса ЧАЙКА марки «А». Высокая степень белизны, непрозрачности, низкая абразивность поверхности, стабильность оттенка бумаги, высокая механическая прочность, сертифицирована по стандартам. Бумага сертифицирована по стандарту ГОСТ Р 57641-2017 «Бумага ксерографическая для офисной техники», а также для архивного хранения по стандарту ГОСТ Р ИСО 9706-2000. Бумага отбелена без применения хлора (ECF), а древесина для продукции происходит из ответственно управляемых лесов. Система лесоуправления производителя сертифицирована по стандарту экологического менеджмента ISO 14001. Система проверки легальности происхождения древесного сырья для данной продукции соответствует международному стандарту «Цепочка поставок древесины и продукции из древесины» ISO 38200:2018 и стандартам Forest Certification «Legal Origin». Совместима со всеми видами офисной техники.\",\n                \"ru\": \"Бумага премиум-класса ЧАЙКА марки «А». Высокая степень белизны, непрозрачности, низкая абразивность поверхности, стабильность оттенка бумаги, высокая механическая прочность, сертифицирована по стандартам. Бумага сертифицирована по стандарту ГОСТ Р 57641-2017 «Бумага ксерографическая для офисной техники», а также для архивного хранения по стандарту ГОСТ Р ИСО 9706-2000. Бумага отбелена без применения хлора (ECF), а древесина для продукции происходит из ответственно управляемых лесов. Система лесоуправления производителя сертифицирована по стандарту экологического менеджмента ISO 14001. Система проверки легальности происхождения древесного сырья для данной продукции соответствует международному стандарту «Цепочка поставок древесины и продукции из древесины» ISO 38200:2018 и стандартам Forest Certification «Legal Origin». Совместима со всеми видами офисной техники.\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"bumaga_premiumklassa_chajka_marki_a_vysokaja_stepen_belizny_neprozrachnosti_nizkaja_abrazivnost_poverhnosti_stabilnost_ottenka_bumagi_vysokaja_mehanicheskaja_prochnost_sertifitsirovana_po_standartam_bumaga_sertifitsirovana_po_standartu_gost_r_576412017_bumaga_kserograficheskaja_dlja_ofisnoj_tehniki_a_takzhe_dlja_arhivnogo_hranenija_po_standartu_gost_r_iso_97062000_bumaga_otbelena_bez_primenenija_hlora_ecf_a_drevesina_dlja_produktsii_proishodit_iz_otvetstvenno_upravljaemyh_lesov_sistema_lesoupravlenija_proizvoditelja_sertifitsirovana_po_standartu_ekologicheskogo_menedzhmenta_iso_14001_sistema_proverki_legalnosti_proishozhdenija_drevesnogo_syrja_dlja_dannoj_produktsii_sootvetstvuet_mezhdunarodnomu_standartu_tsepochka_postavok_drevesiny_i_produktsii_iz_drevesiny_iso_382002018_i_standartam_forest_certification_legal_origin_sovmestima_so_vsemi_vidami_ofisnoj_tehniki\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [],\n    \"tnveds\": [\n        {\n            \"id\": 128994,\n            \"tnved\": {\n                \"id\": 18548,\n                \"name\": \"Части и принадлежности печатных машин, прочие\",\n                \"level\": 0,\n                \"code\": \"8443999009\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"images\": [\n        {\n            \"id\": 866504,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/23871/2023-04-20T10%3A19%3A44/%D0%A7%D0%B0%D0%B9%D0%BA%D0%B0.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 866505,\n            \"order\": 1,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/23871/2023-04-20T10%3A19%3A45/%D0%A7%D0%B0%D0%B9%D0%BA%D0%B03.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [\n        {\n            \"id\": 7079,\n            \"document_url\": \"https://e-catalog.gov.kz/media/applications/documents/23871/2023-04-20T10%3A29%3A10/Bumaga_CHayka_spetsifikatsiya_GOST5183-Sm5Xf.pdf\",\n            \"filename\": \"applications/documents/23871/2023-04-20T10:29:10/Bumaga_CHayka_spetsifikatsiya_GOST5183-Sm5Xf.pdf\",\n            \"extension\": \".pdf\",\n            \"file_size\": 312984\n        }\n    ],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870000401071",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870000401071",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870000401071"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870000401071",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870000401071"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:48:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3149"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 124373,\n    \"external_id\": null,\n    \"name\": \"Revell 39696 Маскировочная лента 20 мм\",\n    \"name_ru\": \"Revell 39696 Маскировочная лента 20 мм\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": null,\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870000401071\",\n    \"product_type\": 1,\n    \"net_weight\": null,\n    \"net_measure\": null,\n    \"gross_weight\": null,\n    \"gross_measure\": null,\n    \"volume\": null,\n    \"volume_measure\": null,\n    \"manufacturer\": null,\n    \"amount_in_package\": null,\n    \"package_dimensions\": null,\n    \"product_dimensions\": null,\n    \"hierarchy\": 1,\n    \"source\": 1,\n    \"status\": 1,\n    \"created\": 1652287653,\n    \"modified\": 1702309939,\n    \"category\": {\n        \"id\": 9253,\n        \"name\": \"Канцелярские клейкие ленты\",\n        \"code\": null,\n        \"full_code\": \"1007-0002-0006-100000542\",\n        \"level\": 3,\n        \"parent\": 9244,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 9676,\n        \"name\": \"Revell\"\n    },\n    \"measure\": null,\n    \"country\": null,\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"nabor\": {\n            \"name\": {\n                \"kz\": \"Набор\",\n                \"ru\": \"Набор\"\n            },\n            \"value\": {\n                \"kz\": \"нет\",\n                \"ru\": \"нет\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"net\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tsvet\": {\n            \"name\": {\n                \"kz\": \"Цвет\",\n                \"ru\": \"Цвет\"\n            },\n            \"value\": {\n                \"kz\": \"желтый\",\n                \"ru\": \"желтый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"zheltyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"upakovka\": {\n            \"name\": {\n                \"kz\": \"Упаковка\",\n                \"ru\": \"Упаковка\"\n            },\n            \"value\": {\n                \"kz\": \"блистер\",\n                \"ru\": \"блистер\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"blister\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"dlina_namotki\": {\n            \"name\": {\n                \"kz\": \"Длина намотки\",\n                \"ru\": \"Длина намотки\"\n            },\n            \"value\": {\n                \"kz\": \"10м\",\n                \"ru\": \"10м\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"10m\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"shirina_lenty\": {\n            \"name\": {\n                \"kz\": \"Ширина ленты\",\n                \"ru\": \"Ширина ленты\"\n            },\n            \"value\": {\n                \"kz\": \"20мм\",\n                \"ru\": \"20мм\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"20mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_klejkoj_lenty\": {\n            \"name\": {\n                \"kz\": \"Тип клейкой ленты\",\n                \"ru\": \"Тип клейкой ленты\"\n            },\n            \"value\": {\n                \"kz\": \"декоративная\",\n                \"ru\": \"декоративная\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"dekorativnaja\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"kolichestvo_klejkoj_lenty\": {\n            \"name\": {\n                \"kz\": \"Количество клейкой ленты\",\n                \"ru\": \"Количество клейкой ленты\"\n            },\n            \"value\": {\n                \"kz\": \"1\",\n                \"ru\": \"1\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [\n        {\n            \"id\": 414186,\n            \"enstru\": {\n                \"id\": 205,\n                \"name\": \"Лента канцелярская\",\n                \"code\": \"139919.900.000017\",\n                \"short_description\": \"атласная\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"tnveds\": [\n        {\n            \"id\": 140145,\n            \"tnved\": {\n                \"id\": 15267,\n                \"name\": \"Клейкие ленты шириной не более 20 см\",\n                \"level\": 0,\n                \"code\": \"5906100000\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"images\": [\n        {\n            \"id\": 119667,\n            \"order\": 119631,\n            \"image_url\": \"https://e-catalog.gov.kz/media/products/124373/revell-39696-maskirovocnaa-lenta-20-mm-102439494-1.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870000401187",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870000401187",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870000401187"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870000401187",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870000401187"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:49:13 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3487"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 125734,\n    \"external_id\": null,\n    \"name\": \"3М Хэлс Кеа США желтый-черный 33 м\",\n    \"name_ru\": \"3М Хэлс Кеа США желтый-черный 33 м\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": null,\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870000401187\",\n    \"product_type\": 1,\n    \"net_weight\": null,\n    \"net_measure\": null,\n    \"gross_weight\": null,\n    \"gross_measure\": null,\n    \"volume\": null,\n    \"volume_measure\": null,\n    \"manufacturer\": null,\n    \"amount_in_package\": null,\n    \"package_dimensions\": null,\n    \"product_dimensions\": null,\n    \"hierarchy\": 1,\n    \"source\": 1,\n    \"status\": 1,\n    \"created\": 1652287659,\n    \"modified\": 1702309939,\n    \"category\": {\n        \"id\": 9253,\n        \"name\": \"Канцелярские клейкие ленты\",\n        \"code\": null,\n        \"full_code\": \"1007-0002-0006-100000542\",\n        \"level\": 3,\n        \"parent\": 9244,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 9681,\n        \"name\": \"3М Хэлс Кеа США\"\n    },\n    \"measure\": null,\n    \"country\": null,\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"nabor\": {\n            \"name\": {\n                \"kz\": \"Набор\",\n                \"ru\": \"Набор\"\n            },\n            \"value\": {\n                \"kz\": \"нет\",\n                \"ru\": \"нет\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"net\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tsvet\": {\n            \"name\": {\n                \"kz\": \"Цвет\",\n                \"ru\": \"Цвет\"\n            },\n            \"value\": {\n                \"kz\": \"черный, желтый\",\n                \"ru\": \"черный, желтый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"chernyj_zheltyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"dizajn\": {\n            \"name\": {\n                \"kz\": \"Дизайн\",\n                \"ru\": \"Дизайн\"\n            },\n            \"value\": {\n                \"kz\": \"полоска\",\n                \"ru\": \"полоска\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"poloska\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"upakovka\": {\n            \"name\": {\n                \"kz\": \"Упаковка\",\n                \"ru\": \"Упаковка\"\n            },\n            \"value\": {\n                \"kz\": \"термоусадочная пленка\",\n                \"ru\": \"термоусадочная пленка\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"termousadochnaja_plenka\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"dlina_namotki\": {\n            \"name\": {\n                \"kz\": \"Длина намотки\",\n                \"ru\": \"Длина намотки\"\n            },\n            \"value\": {\n                \"kz\": \"33м\",\n                \"ru\": \"33м\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"33m\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"shirina_lenty\": {\n            \"name\": {\n                \"kz\": \"Ширина ленты\",\n                \"ru\": \"Ширина ленты\"\n            },\n            \"value\": {\n                \"kz\": \"50мм\",\n                \"ru\": \"50мм\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"50mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_klejkoj_lenty\": {\n            \"name\": {\n                \"kz\": \"Тип клейкой ленты\",\n                \"ru\": \"Тип клейкой ленты\"\n            },\n            \"value\": {\n                \"kz\": \"упаковочная\",\n                \"ru\": \"упаковочная\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"upakovochnaja\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"kolichestvo_klejkoj_lenty\": {\n            \"name\": {\n                \"kz\": \"Количество клейкой ленты\",\n                \"ru\": \"Количество клейкой ленты\"\n            },\n            \"value\": {\n                \"kz\": \"1\",\n                \"ru\": \"1\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [\n        {\n            \"id\": 413915,\n            \"enstru\": {\n                \"id\": 205,\n                \"name\": \"Лента канцелярская\",\n                \"code\": \"139919.900.000017\",\n                \"short_description\": \"атласная\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"tnveds\": [\n        {\n            \"id\": 139874,\n            \"tnved\": {\n                \"id\": 15267,\n                \"name\": \"Клейкие ленты шириной не более 20 см\",\n                \"level\": 0,\n                \"code\": \"5906100000\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"images\": [\n        {\n            \"id\": 121002,\n            \"order\": 120966,\n            \"image_url\": \"https://e-catalog.gov.kz/media/products/125734/3m-hels-kea-ssa-zeltyj-cernyj-33-m-102029782-1.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870006910522",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870006910522",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870006910522"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870006910522",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870006910522"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:50:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5897"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 950021,\n    \"external_id\": null,\n    \"name\": \"Кнопка вызова палатная Randa OK02 консоль\",\n    \"name_ru\": \"Кнопка вызова палатная Randa OK02 консоль\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"OK02\",\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870006910522\",\n    \"product_type\": 1,\n    \"net_weight\": 146,\n    \"net_measure\": \"г\",\n    \"gross_weight\": 155,\n    \"gross_measure\": \"г\",\n    \"volume\": null,\n    \"volume_measure\": \"мл\",\n    \"manufacturer\": \"Randa Elektronik Ltd.Şti\",\n    \"amount_in_package\": 1,\n    \"package_dimensions\": {\n        \"width\": 40,\n        \"height\": 85,\n        \"length\": 125,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": 36,\n        \"height\": 79,\n        \"length\": 123,\n        \"measure\": \"мм\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1716967892,\n    \"modified\": 1716967892,\n    \"category\": {\n        \"id\": 32258,\n        \"name\": \"Кнопки вызова\",\n        \"code\": 100010812,\n        \"full_code\": \"1024-0001-0003-100010812\",\n        \"level\": 3,\n        \"parent\": 29106,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 22603,\n        \"name\": \"Randa\"\n    },\n    \"measure\": {\n        \"id\": 2,\n        \"name\": \"Штука\",\n        \"short_name\": \"796\"\n    },\n    \"country\": {\n        \"id\": 27,\n        \"name\": \"ТУРЦИЯ\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"tsvet_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Цвет \"\n            },\n            \"value\": {\n                \"kz\": \"Белый\",\n                \"ru\": \"Белый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"belyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"material\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Материал\"\n            },\n            \"value\": {\n                \"kz\": \"ABS Пластик\",\n                \"ru\": \"ABS Пластик\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"abs_plastik\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"opisanie\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Описание\"\n            },\n            \"value\": {\n                \"kz\": \"Палатная консоль выполняет функцию передачи данных, когда требуется наличие нескольких вызывных блоков с разными идентификационными номерами в одном помещении. Имеется возможность добавить релейный блок, который позволит пациентам управлять освещением в помещении и освещением для чтения с вызывного устройства телефонной трубки. Одна консоль помещения поддерживает до трех кроватей и одну ванную комнату. Система работает с использованием бинарных сетей.\",\n                \"ru\": \"Палатная консоль выполняет функцию передачи данных, когда требуется наличие нескольких вызывных блоков с разными идентификационными номерами в одном помещении. Имеется возможность добавить релейный блок, который позволит пациентам управлять освещением в помещении и освещением для чтения с вызывного устройства телефонной трубки. Одна консоль помещения поддерживает до трех кроватей и одну ванную комнату. Система работает с использованием бинарных сетей.\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"palatnaja_konsol_vypolnjaet_funktsiju_peredachi_dannyh_kogda_trebuetsja_nalichie_neskolkih_vyzyvnyh_blokov_s_raznymi_identifikatsionnymi_nomerami_v_odnom_pomeschenii_imeetsja_vozmozhnost_dobavit_relejnyj_blok_kotoryj_pozvolit_patsientam_upravljat_osvescheniem_v_pomeschenii_i_osvescheniem_dlja_chtenija_s_vyzyvnogo_ustrojstva_telefonnoj_trubki_odna_konsol_pomeschenija_podderzhivaet_do_treh_krovatej_i_odnu_vannuju_komnatu_sistema_rabotaet_s_ispolzovaniem_binarnyh_setej\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_porta_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Тип порта \"\n            },\n            \"value\": {\n                \"kz\": \"RJ-45\",\n                \"ru\": \"RJ-45\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"rj45\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"protsessor_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Процессор \"\n            },\n            \"value\": {\n                \"kz\": \"Микроконтроллер\",\n                \"ru\": \"Микроконтроллер\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"mikrokontroller\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"naprjazhenie_i_tok\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Напряжение и ток\"\n            },\n            \"value\": {\n                \"kz\": \"12/5\",\n                \"ru\": \"12/5\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"125\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"rabochaja_vlazhnost\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Рабочая влажность\"\n            },\n            \"value\": {\n                \"kz\": \"30 - 80\",\n                \"ru\": \"30 - 80\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"30__80\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"rabochaja_temperatura\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Рабочая температура\"\n            },\n            \"value\": {\n                \"kz\": \"-10/ +50\",\n                \"ru\": \"-10/ +50\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"10_50\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"ssylka_na_sajt_proizvoditelja\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Ссылка на сайт производителя\"\n            },\n            \"value\": {\n                \"kz\": \"https://randa.com.tr/en/products/wired-nurse-call-system/\",\n                \"ru\": \"https://randa.com.tr/en/products/wired-nurse-call-system/\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"httpsrandacomtrenproductswirednursecallsystem\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [],\n    \"tnveds\": [],\n    \"images\": [\n        {\n            \"id\": 1009768,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/61960/2024-05-21T16%3A20%3A08/%D0%91%D0%BB%D0%BE%D0%BA_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 1009769,\n            \"order\": 1,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/61960/2024-05-21T16%3A20%3A42/oda-kontrol-unitesi-kablolu-web-320x320.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870008127027",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870008127027",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870008127027"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870008127027",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870008127027"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:50:29 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5298"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1091984,\n    \"external_id\": null,\n    \"name\": \"Пейджер Randa DIGIMAT для приема сигнала от кнопок вызова\",\n    \"name_ru\": \"Пейджер Randa DIGIMAT для приема сигнала от кнопок вызова\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"DIGIMAT\",\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870008127027\",\n    \"product_type\": 1,\n    \"net_weight\": 68,\n    \"net_measure\": \"г\",\n    \"gross_weight\": 78,\n    \"gross_measure\": \"г\",\n    \"volume\": null,\n    \"volume_measure\": \"мл\",\n    \"manufacturer\": \"Randa Elektronik Ltd.Şti\",\n    \"amount_in_package\": null,\n    \"package_dimensions\": {\n        \"width\": null,\n        \"height\": null,\n        \"length\": null,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": 18,\n        \"height\": 53,\n        \"length\": 76,\n        \"measure\": \"мм\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1719316529,\n    \"modified\": 1719316529,\n    \"category\": {\n        \"id\": 29112,\n        \"name\": \"Пейджеры\",\n        \"code\": null,\n        \"full_code\": \"1024-0001-0003-100007980\",\n        \"level\": 3,\n        \"parent\": 29106,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 28965,\n        \"name\": \"Randa\"\n    },\n    \"measure\": {\n        \"id\": 2,\n        \"name\": \"Штука\",\n        \"short_name\": \"796\"\n    },\n    \"country\": {\n        \"id\": 27,\n        \"name\": \"ТУРЦИЯ\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"tip\": {\n            \"name\": {\n                \"kz\": \"Тип\",\n                \"ru\": \"Тип\"\n            },\n            \"value\": {\n                \"kz\": \"Беспроводная связь\",\n                \"ru\": \"Беспроводная связь\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"besprovodnaja_svjaz\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"jazyk\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Язык\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"Поддерживает 11 языков\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"podderzhivaet_11_jazykov\",\n            \"is_tech_spec\": false,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tsvet\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Цвет\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"Черный\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"chernyj\",\n            \"is_tech_spec\": false,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"displej\": {\n            \"name\": {\n                \"kz\": \"Дисплей\",\n                \"ru\": \"Дисплей\"\n            },\n            \"value\": {\n                \"kz\": \"16 символов/строк, макс. 22 символа\",\n                \"ru\": \"16 символов/строк, макс. 22 символа\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"16_simvolovstrok_maks_22_simvola\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"korpus_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Корпус: \"\n            },\n            \"value\": {\n                \"kz\": \"ABS Пластик\",\n                \"ru\": \"ABS Пластик\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"abs_plastik\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"diapazon\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Диапазон\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"150 метров (в открытом пространство 200 метров)\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"150_metrov_v_otkrytom_prostranstvo_200_metrov\",\n            \"is_tech_spec\": false,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"protsessor\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Процессор\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"Микроконтроллер\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"mikrokontroller\",\n            \"is_tech_spec\": false,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"naprjazhenie_v\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Напряжение, в\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"1.5 (AAA одна)\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"15_aaa_odna\",\n            \"is_tech_spec\": false,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"sajt_proizvoditelja_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Сайт производителя \"\n            },\n            \"value\": {\n                \"kz\": \"https://randa.com.tr/en/products/wireless-nurse-call-system/\",\n                \"ru\": \"https://randa.com.tr/en/products/wireless-nurse-call-system/\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"httpsrandacomtrenproductswirelessnursecallsystem\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"chastota_radiokanala_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Частота радиоканала: \"\n            },\n            \"value\": {\n                \"kz\": \"138-930 МГц\",\n                \"ru\": \"138-930 МГц\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"138930_mgts\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"diapazon_rabochih_temperatur_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Диапазон рабочих температур: \"\n            },\n            \"value\": {\n                \"kz\": \"-10 / +40\",\n                \"ru\": \"-10 / +40\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"10__40\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"uroven_preduprezhdenija_o_nizkom_zarjade_batarei\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Уровень предупреждения о низком заряде батареи\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"Есть (1,1 В)\"\n            },\n            \"is_main\": false,\n            \"value_code\": \"est_11_v\",\n            \"is_tech_spec\": false,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [\n        {\n            \"id\": 2074226,\n            \"enstru\": {\n                \"id\": 4268,\n                \"name\": \"Пейджер\",\n                \"code\": \"264044.500.000000\",\n                \"short_description\": \"без возможности отправки сообщений\"\n            },\n            \"timestamp\": 1729087252\n        },\n        {\n            \"id\": 2074227,\n            \"enstru\": {\n                \"id\": 4269,\n                \"name\": \"Пейджер\",\n                \"code\": \"264044.500.000001\",\n                \"short_description\": \"с возможностью отправки сообщений\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"tnveds\": [\n        {\n            \"id\": 1133178,\n            \"tnved\": {\n                \"id\": 19667,\n                \"name\": \"Приемники портативные для приема сигналов вызова или пейджингового сообщения\",\n                \"level\": 0,\n                \"code\": \"8517693100\"\n            },\n            \"timestamp\": 1729087252\n        }\n    ],\n    \"images\": [\n        {\n            \"id\": 1156348,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/65194/2024-06-25T16%3A55%3A15/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9.png\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2874008160022",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2874008160022",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2874008160022"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2874008160022",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2874008160022"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:51:37 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4626"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 621330,\n    \"external_id\": null,\n    \"name\": \"Выносная кнопка вызова Randa-RE03\",\n    \"name_ru\": \"Выносная кнопка вызова Randa-RE03\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"RE03\",\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2874008160022\",\n    \"product_type\": 1,\n    \"net_weight\": 92,\n    \"net_measure\": \"г\",\n    \"gross_weight\": 107,\n    \"gross_measure\": \"г\",\n    \"volume\": null,\n    \"volume_measure\": \"мл\",\n    \"manufacturer\": \"Randa Elektronik Ltd\",\n    \"amount_in_package\": 1,\n    \"package_dimensions\": {\n        \"width\": 38,\n        \"height\": 150,\n        \"length\": 90,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": 24,\n        \"height\": 131,\n        \"length\": 44,\n        \"measure\": \"мм\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1688453602,\n    \"modified\": 1701443308,\n    \"category\": {\n        \"id\": 32258,\n        \"name\": \"Кнопки вызова\",\n        \"code\": 100010812,\n        \"full_code\": \"1024-0001-0003-100010812\",\n        \"level\": 3,\n        \"parent\": 29106,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 22603,\n        \"name\": \"Randa\"\n    },\n    \"measure\": null,\n    \"country\": {\n        \"id\": 27,\n        \"name\": \"ТУРЦИЯ\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"tsvet_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Цвет \"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"белый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"belyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"opisanie\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Описание\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"Выносная кнопка вызова подключается к прикроватной кнопки вызова через запираемую розетку. Она имеет три кнопки (кнопка вызова, кнопка лампы чтения, кнопка освещения комнаты). \"\n            },\n            \"is_main\": true,\n            \"value_code\": \"vynosnaja_knopka_vyzova_podkljuchaetsja_k_prikrovatnoj_knopki_vyzova_cherez_zapiraemuju_rozetku_ona_imeet_tri_knopki_knopka_vyzova_knopka_lampy_chtenija_knopka_osveschenija_komnaty_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"material_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Материал \"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"ABS Пластик\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"abs_plastik\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_porta\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Тип порта\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"RJ-11\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"rj11\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"protsessor\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Процессор\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \" Микроконтроллер\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"_mikrokontroller\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"naznachenie\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Назначение\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"Клиент с ограниченными возможностями использует ее в случае, если он не может дотянуться до прикроватной кнопки вызова.\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"klient_s_ogranichennymi_vozmozhnostjami_ispolzuet_ee_v_sluchae_esli_on_ne_mozhet_dotjanutsja_do_prikrovatnoj_knopki_vyzova\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"moschnost_vt\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Мощность, Вт\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \" 0,06 Вт \"\n            },\n            \"is_main\": true,\n            \"value_code\": \"_006_vt_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"rabochaja_vlazhnost_\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Рабочая влажность, %\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \" - 30  - 80\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"__30__80\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"rabochaja_temperatura_c\": {\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Рабочая температура, °C\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"  -10/ +50\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"_10_50\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [],\n    \"tnveds\": [],\n    \"images\": [\n        {\n            \"id\": 871539,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/27434/2023-06-07T14%3A08%3A53/%D0%92%D1%8B%D0%BD%D0%BE%D1%81%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2%D0%B0.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 871540,\n            \"order\": 1,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/27434/2023-06-07T14%3A09%3A06/%D0%B2%D1%8B%D0%BD%D0%BE%D1%81%D0%BD%D0%B0%D1%8F_%D0%BA-%D0%B2.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [\n        {\n            \"id\": 8145,\n            \"document_url\": \"https://e-catalog.gov.kz/media/applications/documents/27434/2023-06-07T15%3A19%3A57/%D0%94%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B8%D1%86%D0%B8%D1%8F_%D0%A0%D0%90%D0%9D%D0%94%D0%90.pdf\",\n            \"filename\": \"applications/documents/27434/2023-06-07T15:19:57/Деклариция_РАНДА.pdf\",\n            \"extension\": \".pdf\",\n            \"file_size\": 405107\n        }\n    ],\n    \"active_kztins\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "products/by-kztin/2870004686269",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870004686269",
+					"protocol": "https",
+					"host": [
+						"e-catalog",
+						"gov",
+						"kz"
+					],
+					"path": [
+						"api",
+						"core",
+						"products",
+						"by-kztin",
+						"2870004686269"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870004686269",
+							"protocol": "https",
+							"host": [
+								"e-catalog",
+								"gov",
+								"kz"
+							],
+							"path": [
+								"api",
+								"core",
+								"products",
+								"by-kztin",
+								"2870004686269"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.18.0"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Feb 2025 17:51:52 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5841"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Allow",
+							"value": "GET, HEAD, OPTIONS"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "*"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Language, Cookie"
+						},
+						{
+							"key": "Content-Language",
+							"value": "ru"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE, OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Authorization, cache-control, content-range, accept, origin, session-id, content-disposition, x-requested-with, content-type, content-description, referer, user-agent, auth-token, additional, blockid, priority"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "600"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 631783,\n    \"external_id\": null,\n    \"name\": \"Тележка для уборки Fantom PROCART 336\",\n    \"name_ru\": \"Тележка для уборки Fantom PROCART 336\",\n    \"name_kk\": null,\n    \"is_domestic\": false,\n    \"is_social\": false,\n    \"is_weight\": false,\n    \"model_name\": \"PROCART 336\",\n    \"gtin\": null,\n    \"mpn\": null,\n    \"kztin_code\": \"2870004686269\",\n    \"product_type\": 1,\n    \"net_weight\": 39.5,\n    \"net_measure\": \"кг\",\n    \"gross_weight\": 45,\n    \"gross_measure\": \"кг\",\n    \"volume\": null,\n    \"volume_measure\": \"л\",\n    \"manufacturer\": \"Fanset Elektrikli Ev Aletleri San. ve Tic. A.Ş.\",\n    \"amount_in_package\": 7,\n    \"package_dimensions\": {\n        \"width\": null,\n        \"height\": null,\n        \"length\": null,\n        \"measure\": \"мм\"\n    },\n    \"product_dimensions\": {\n        \"width\": 53,\n        \"height\": 98,\n        \"length\": 126,\n        \"measure\": \"см\"\n    },\n    \"hierarchy\": 1,\n    \"source\": null,\n    \"status\": 1,\n    \"created\": 1708668247,\n    \"modified\": 1708686081,\n    \"category\": {\n        \"id\": 32442,\n        \"name\": \"Инвентарь для уборки полов\",\n        \"code\": 100011000,\n        \"full_code\": \"1036-0001-0002-100011000\",\n        \"level\": 3,\n        \"parent\": 30234,\n        \"category_type\": 1,\n        \"image\": null\n    },\n    \"tnved\": null,\n    \"brand\": {\n        \"id\": 18378,\n        \"name\": \"Fantom\"\n    },\n    \"measure\": {\n        \"id\": 2,\n        \"name\": \"Штука\",\n        \"short_name\": \"796\"\n    },\n    \"country\": {\n        \"id\": 27,\n        \"name\": \"ТУРЦИЯ\"\n    },\n    \"child_product\": null,\n    \"attributes_dict\": {\n        \"sajt_\": {\n            \"code\": \"sajt_\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Сайт \"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"https://www.fantomprofessional.com.tr/procart-336\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"httpswwwfantomprofessionalcomtrprocart336\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tsvet\": {\n            \"code\": \"tsvet\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Цвет\"\n            },\n            \"value\": {\n                \"kz\": \"Серый \",\n                \"ru\": \"Серый \"\n            },\n            \"is_main\": true,\n            \"value_code\": \"seryj_\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"korpus\": {\n            \"code\": \"korpus\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Корпус\"\n            },\n            \"value\": {\n                \"kz\": \"6 мм\",\n                \"ru\": \"6 мм\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"6_mm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"material\": {\n            \"code\": \"material\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Материал\"\n            },\n            \"value\": {\n                \"kz\": \"CPP, пластик\",\n                \"ru\": \"CPP, пластик\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"cpp_plastik\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"obem_vedra\": {\n            \"code\": \"obem_vedra\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Объем ведра\"\n            },\n            \"value\": {\n                \"kz\": \"1 x 22 л.СИНИЙ, 1 x 22 л.КРАСНЫЙ, 4 х 7 л.красный, синий, зелёный, жёлтый\",\n                \"ru\": \"1 x 22 л.СИНИЙ, 1 x 22 л.КРАСНЫЙ, 4 х 7 л.красный, синий, зелёный, жёлтый\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"1_x_22_lsinij_1_x_22_lkrasnyj_4_h_7_lkrasnyj_sinij_zelenyj_zheltyj\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"tip_sredstva\": {\n            \"code\": \"tip_sredstva\",\n            \"name\": {\n                \"kz\": \"Тип средства\",\n                \"ru\": \"Тип средства\"\n            },\n            \"value\": {\n                \"kz\": \"механическое\",\n                \"ru\": \"механическое\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"mehanicheskoe\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"komplektatsija\": {\n            \"code\": \"komplektatsija\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Комплектация\"\n            },\n            \"value\": {\n                \"kz\": \"Ведра: 1 x 22 л (СИНИЙ) – 1шт, 1 x 22 л (КРАСНЫЙ)- 1 шт., 4 х 7 л.(красный, синий, зелёный, жёлтый) – 4шт, швабра (флаундер 50 см) – 1шт, Мусорный мешок 120 л – 1шт\",\n                \"ru\": \"Ведра: 1 x 22 л (СИНИЙ) – 1шт, 1 x 22 л (КРАСНЫЙ)- 1 шт., 4 х 7 л.(красный, синий, зелёный, жёлтый) – 4шт, швабра (флаундер 50 см) – 1шт, Мусорный мешок 120 л – 1шт\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"vedra_1_x_22_l_sinij__1sht_1_x_22_l_krasnyj_1_sht_4_h_7_lkrasnyj_sinij_zelenyj_zheltyj__4sht_shvabra_flaunder_50_sm__1sht_musornyj_meshok_120_l__1sht\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"dlina_ruchki_shvabry\": {\n            \"code\": \"dlina_ruchki_shvabry\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Длина ручки швабры\"\n            },\n            \"value\": {\n                \"kz\": \"130 см\",\n                \"ru\": \"130 см\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"130_sm\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"konstruktsija_shvabry\": {\n            \"code\": \"konstruktsija_shvabry\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Конструкция швабры\"\n            },\n            \"value\": {\n                \"kz\": \"Разборная\",\n                \"ru\": \"Разборная\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"razbornaja\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"obem_musornogo_meshka\": {\n            \"code\": \"obem_musornogo_meshka\",\n            \"name\": {\n                \"kz\": \"\",\n                \"ru\": \"Объем мусорного мешка\"\n            },\n            \"value\": {\n                \"kz\": \"\",\n                \"ru\": \"120 л\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"120_l\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        },\n        \"obrabatyvaemaja_poverhnost\": {\n            \"code\": \"obrabatyvaemaja_poverhnost\",\n            \"name\": {\n                \"kz\": \"Обрабатываемая поверхность\",\n                \"ru\": \"Обрабатываемая поверхность\"\n            },\n            \"value\": {\n                \"kz\": \"Полы/любые поверхности\",\n                \"ru\": \"Полы/любые поверхности\"\n            },\n            \"is_main\": true,\n            \"value_code\": \"polyljubye_poverhnosti\",\n            \"is_tech_spec\": true,\n            \"is_required_egz\": false,\n            \"is_required_kgd\": false\n        }\n    },\n    \"enstrus\": [\n        {\n            \"id\": 4082,\n            \"enstru\": {\n                \"id\": 5930,\n                \"name\": \"Тележка\",\n                \"code\": \"309910.000.000002\",\n                \"short_description\": \"ручная, четырехколесная\"\n            },\n            \"timestamp\": 1708668247\n        }\n    ],\n    \"tnveds\": [],\n    \"images\": [\n        {\n            \"id\": 907604,\n            \"order\": 0,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/47916/2024-02-07T15%3A06%3A41/Fantom..jpg.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 907605,\n            \"order\": 1,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/47916/2024-02-07T15%3A06%3A42/Fantom.jpg.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 907606,\n            \"order\": 2,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/47916/2024-02-07T15%3A06%3A42/Fantom-2.jpg\",\n            \"hidden\": false\n        },\n        {\n            \"id\": 907607,\n            \"order\": 3,\n            \"image_url\": \"https://e-catalog.gov.kz/media/applications/images/47916/2024-02-07T15%3A06%3A42/Fantom-1.jpg\",\n            \"hidden\": false\n        }\n    ],\n    \"documents\": [],\n    \"active_kztins\": []\n}"
+				}
+			]
+		}
+	]
+}
