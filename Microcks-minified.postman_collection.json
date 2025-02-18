@@ -1,10 +1,10 @@
 {
 	"info": {
 		"_postman_id": "5af4680d-13fb-4f76-b79f-8102de3ef582",
-		"name": "Microcks Minified",
+		"name": "Products API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "14293316",
-		"version": "2.0.1"
+		"version":"2.0.0"
 	},
 	"item": [
 		{
@@ -134,7 +134,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870008155440",
+					"raw": "https://e-catalog.gov.kz/api/core/products/by-kztin/2870000242544",
 					"protocol": "https",
 					"host": [
 						"e-catalog",
@@ -146,7 +146,7 @@
 						"core",
 						"products",
 						"by-kztin",
-						"2870008155440"
+						"2870000242544"
 					]
 				}
 			},
